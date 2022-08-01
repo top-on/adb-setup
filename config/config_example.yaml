@@ -1,0 +1,10 @@
+## Example file on how to configure phone setup.
+
+# APKs to be installed
+urls:
+  - https://f-droid.org/F-Droid.apk
+  - https://f-droid.org/repo/io.github.engsergiu.react_4.apk
+
+# configuration commands
+commands:
+  - adb shell cmd uimode night yes # set dark theme
